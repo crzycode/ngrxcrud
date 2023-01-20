@@ -1,0 +1,5 @@
+.proper_nav{
+  flex-wrap: initial;
+  align-items: center;
+  justify-content: space-between;
+}

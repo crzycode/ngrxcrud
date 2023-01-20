@@ -1,0 +1,28 @@
+<div class="container mt-2 add_container">
+  <div class="forms">
+    <div class="wrapper_form">
+      <legend>Add New Book</legend>
+      <mat-form-field appearance="outline" class="input_field">
+        <mat-label>Name Of Book</mat-label>
+        <input matInput placeholder="Book" autocomplete="off" [(ngModel)] = "bookform.title">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+
+      </mat-form-field>
+      <mat-form-field appearance="outline" class="input_field">
+        <mat-label>Auther Name</mat-label>
+        <input matInput placeholder="Author" autocomplete="off" [(ngModel)] = "bookform.author">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+
+      </mat-form-field>
+      <mat-form-field appearance="outline" class="input_field">
+        <mat-label>Book Cost</mat-label>
+        <input matInput placeholder="Cost" autocomplete="off" [(ngModel)] = "bookform.cost">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+
+      </mat-form-field>
+      <button mat-raised-button class="submit_button" (click)="Update()">Update</button>
+    </div>
+
+
+  </div>
+  </div>
